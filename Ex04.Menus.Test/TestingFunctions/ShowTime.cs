@@ -7,10 +7,10 @@ namespace Ex04.Menus.Test.TestingFunctions
     {
         public void DoAction()
         {
-            ShowTimeAction();
+            showTimeAction();
         }
 
-        private void ShowTimeAction()
+        private void showTimeAction()
         {
             Console.WriteLine(DateTime.Now.ToLongTimeString());
         }

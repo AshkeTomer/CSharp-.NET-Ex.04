@@ -15,6 +15,12 @@ namespace Ex04.Menus.Test
 
         public void BuildMenu()
         {
+            buildVersionDigitsSubMenu();
+            buildDateTimeSubMenu();
+        }
+
+        private void buildVersionDigitsSubMenu()
+        {
             SubMenu versionDigitsSubMenu = new SubMenu("Letters and Version", r_MainMenu);
 
             ActiveItem showVersionItem = new ActiveItem("Show Version", versionDigitsSubMenu);
@@ -26,7 +32,10 @@ namespace Ex04.Menus.Test
             versionDigitsSubMenu.AddMenuItem(countLettersItem);
 
             r_MainMenu.AddMenuItem(versionDigitsSubMenu);
+        }
 
+        private void buildDateTimeSubMenu()
+        {
             SubMenu dateTimeSubMenu = new SubMenu("Show Current Date / Time", r_MainMenu);
 
             ActiveItem showTimeItem = new ActiveItem("Show Current Time", dateTimeSubMenu);

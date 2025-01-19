@@ -84,6 +84,7 @@ namespace Ex04.Menus.Events
                     PreviousMenu.Show();
                 }
             }
+            
             else
             {
                 r_MenuItems[i_UserChoice - 1].Show();

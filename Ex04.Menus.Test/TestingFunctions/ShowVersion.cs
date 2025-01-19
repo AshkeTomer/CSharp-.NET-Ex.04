@@ -7,10 +7,10 @@ namespace Ex04.Menus.Test.TestingFunctions
     {
         public void DoAction()
         {
-            ShowVersionAction();
+            showVersionAction();
         }
 
-        private void ShowVersionAction()
+        private void showVersionAction()
         {
             Console.WriteLine("App Version: 25.1.4.5480");
         }

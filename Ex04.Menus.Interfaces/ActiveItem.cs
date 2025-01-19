@@ -25,7 +25,7 @@ namespace Ex04.Menus.Interfaces
         public override void Show()
         {
             Console.Clear();
-            doActionNotifier.notifiyAll();
+            doActionNotifier.NotifiyAll();
             System.Threading.Thread.Sleep(2000);
             PreviousMenu.Show();
         }

@@ -7,10 +7,10 @@ namespace Ex04.Menus.Test.TestingFunctions
     {
         public void DoAction()
         {
-            CountLettersAction();
+            countLettersAction();
         }
 
-        private void CountLettersAction()
+        private void countLettersAction()
         {
             Console.WriteLine("Please enter a sentence:");
             string userInput = Console.ReadLine();

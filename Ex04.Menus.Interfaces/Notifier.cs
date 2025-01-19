@@ -21,7 +21,7 @@ namespace Ex04.Menus.Interfaces
             m_Listeners.Remove(i_Listener);
         }
 
-        public void notifiyAll()
+        public void NotifiyAll()
         {
             foreach (IDoActionListener actionListener in m_Listeners)
             {
